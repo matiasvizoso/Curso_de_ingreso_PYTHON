@@ -6,8 +6,8 @@ import customtkinter
 
 
 '''
-nombre:
-apellido:
+nombre: Matias Alejandro
+apellido: Vizoso Eckert
 ---
 Ejercicio: entrada_salida_01
 ---
