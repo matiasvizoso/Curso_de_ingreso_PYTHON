@@ -12,7 +12,8 @@ apellido:
 Ejercicio: entrada_salida_01
 ---
 Enunciado:
-Al presionar el  botón, se debe mostrar un mensaje como el siguiente "Esto no anda, funciona".
+Al presionar el  botón, se debe mostrar un mensaje como el siguiente 
+"Esto no anda, funciona".
 '''
 
 class App(customtkinter.CTk):
@@ -28,7 +29,7 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        alert(title="Info", message="Esto no, anda funciona")
         
 
 if __name__ == "__main__":

@@ -28,8 +28,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
-        
+       result= prompt(title="Pregunta", prompt="Cual es tu edad")
+       alert(title="Dato", message=" Tu edad es " + result)
         
     
 if __name__ == "__main__":
