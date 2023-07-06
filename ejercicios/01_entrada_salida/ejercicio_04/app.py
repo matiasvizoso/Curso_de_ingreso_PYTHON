@@ -11,7 +11,8 @@ apellido:
 Ejercicio: entrada_salida_04
 ---
 Enunciado:
-Al presionar el botón  'Mostrar', se deberá obtener un nombre utilizando el Dialog Prompt y luego mostrarlo en la caja de texto txt_nombre (.delete / .insert )
+Al presionar el botón  'Mostrar', se deberá obtener un nombre utilizando el
+ Dialog Prompt y luego mostrarlo en la caja de texto txt_nombre (.delete / .insert )
 '''
 
 class App(customtkinter.CTk):
