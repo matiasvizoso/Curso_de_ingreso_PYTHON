@@ -11,7 +11,8 @@ apellido: Vizoso Eckert
 Ejercicio: entrada_salida_02
 ---
 Enunciado:
-Al presionar el botón  'Mostrar', se deberá obtener un dato utilizando el Dialog Prompt
+Al presionar el botón  'Mostrar', se deberá obtener un dato utilizando 
+el Dialog Prompt
 y luego mostrarlo utilizando el Dialog Alert
 '''
 
@@ -28,8 +29,8 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-       result= prompt(title="Pregunta", prompt="Cual es tu edad")
-       alert(title="Dato", message=" Tu edad es " + result)
+       Edad= prompt(title="Pregunta", prompt="¿Cual es tu edad?")
+       alert(title="Dato", message=" Tu edad es " + Edad)
         
     
 if __name__ == "__main__":
