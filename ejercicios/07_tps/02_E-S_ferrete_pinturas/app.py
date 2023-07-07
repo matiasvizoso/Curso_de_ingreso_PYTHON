@@ -8,10 +8,12 @@ import customtkinter
 Enunciado:
 
 2.	Para el departamento de Pinturas:
-	A.	Al ingresar una temperatura en Fahrenheit debemos mostrar la temperatura en Centígrados con un mensaje concatenado 
+	A.	Al ingresar una temperatura en Fahrenheit debemos mostrar la temperatura en Centígrados
+      con un mensaje concatenado 
         (0 °F − 32) × 5/9 = -17,78 °C
 
-    B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en Fahrenheit 
+    B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en 
+    Fahrenheit 
         (0 °C × 9/5) + 32 = 32 °F
 
     
@@ -44,10 +46,28 @@ class App(customtkinter.CTk):
         self.btn_convertir_f_c.grid(row=4, pady=10, columnspan=2, sticky="nsew")
     
     def btn_convertir_c_f_on_click(self):
-        pass
+        
+        grados = self.txt_temperatura_c.get()
+        grados = int (grados)
+        fharenheit = self.txt_temperatura_f.get()
+        fharenheit = (grados + 32) * 9/5 
+
+        texto = f"Los grados Fharenheit son{fharenheit}"
+        
+        alert(title="Los grados Fharenheit son", message= texto)
+        
+    
+    
 
     def btn_convertir_f_c_on_click(self):
-        pass
+        fharenheit = self.txt_temperatura_f.get()
+        fharenheit = int(fharenheit)
+        grados = self.txt_temperatura_c
+        grados = (fharenheit - 32) * 5/9 
+
+        texto = f"Los grados centigrados son {grados}"
+
+        alert(title="Los grados centigrados", message=texto)
     
     
 if __name__ == "__main__":
