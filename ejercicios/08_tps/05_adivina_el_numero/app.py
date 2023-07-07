@@ -8,8 +8,10 @@ import random
 
 '''
 Adivina el número (v 1.0):
-Al comenzar el juego generamos un número secreto del 1 al 100, en la pantalla del juego dispondremos de un cuadro de texto 
-para ingresar un número y un botón “Verificar”, si el número ingresado es el mismo que el número secreto se dará por terminado
+Al comenzar el juego generamos un número secreto del 1 al 100, en la pantalla del juego dispondremos 
+de un cuadro de texto 
+para ingresar un número y un botón “Verificar”, si el número ingresado es el 
+mismo que el número secreto se dará por terminado
  el juego con un mensaje similar a este: 
 
 “Ganaste en X intentos”.

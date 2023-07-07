@@ -50,7 +50,9 @@ class App(customtkinter.CTk):
         self.btn_dividir.grid(row=5, pady=10, columnspan=2, sticky="nsew")
 
     def btn_sumar_on_click(self):
-        pass
+        numero_1 = self.text_operador_a.get()
+        numero_1 = int()
+        
 
     def btn_restar_on_click(self):
         pass

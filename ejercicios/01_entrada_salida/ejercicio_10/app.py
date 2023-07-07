@@ -11,7 +11,8 @@ apellido:
 Ejercicio: entrada_salida_10
 ---
 Enunciado:
-Al presionar el botón  'Calcular', se deberán obtener los valores contenidos en las cajas de texto (txt_importe y txt_descuento), 
+Al presionar el botón  'Calcular', se deberán obtener los valores contenidos en las cajas de texto 
+(txt_importe y txt_descuento), 
 transformarlos en números y mostrar el importe actualizado con el descuento utilizando el Dialog Alert.
 '''
 
