@@ -12,7 +12,8 @@ Ejercicio: instrucion_if_01
 ---
 Enunciado:
 Al presionar el botón  'Mostrar', se deberá obtener contenido en la caja de texto txt_edad,
-transformarlo en número, si coincide con el valor 18, mostrar el mensaje “Usted tiene 18 años” utilizando el Dialog Alert.
+transformarlo en número, si coincide con el valor 18, mostrar el mensaje “Usted tiene 18 años” 
+utilizando el Dialog Alert.
 '''
 
 class App(customtkinter.CTk):
@@ -34,7 +35,22 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        edad = self.txt_edad.get()
+        edad = int(edad)
+        texto = f"su edad es {edad} años"
+
+        if edad == 18:
+            texto = f"Usted tiene {edad} años"
+            alert("Su edad", texto )
+            
+        else: 
+            alert("Su edad", texto)
+    
+
+
+        
+
+
 
         
         
